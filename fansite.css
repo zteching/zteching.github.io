@@ -1,4 +1,61 @@
-#welcome{
-  font-size: 48px;
-  color: rgb(88, 196, 234);
+@font-face {
+  font-family:godofwarimport;
+  src: url("GODOFWAR.TTF");
 }
+
+* {font-family:godofwarimport;}
+h1 {
+  color:rgb(192, 0, 0);
+}
+
+.video-bg-container {
+  position:absolute;
+  top:0; 
+  left:0; 
+  width:100%;
+  height:100%;
+  overflow: hidden;
+}
+.video-bg {
+min-width: 100%; 
+min-height: 100%; 
+width: auto;
+height: auto;
+position: absolute;
+z-index:-1;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+background-color:black;
+opacity: .5;
+}
+
+.open-vd-container {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+
+.open-vd {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.button {
+  font-size: xx-large;
+}
+
+
+.button:hover {
+  background-color:rgb(192, 0, 0);
+  color:white;
+
+}
+
